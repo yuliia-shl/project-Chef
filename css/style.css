@@ -1,0 +1,596 @@
+body {
+    margin: 0;
+}
+
+/*===============
+Панель навигации
+==================*/
+#navbar {
+	width: 100%;
+	height: 60px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
+
+#logo a b {
+	color: #000000;
+	position: relative;
+	height: 100%;
+	float: left;
+	font-size: 22px;
+	font-weight: 600;
+	display: block;
+	padding: 20px;
+}
+
+.menu {
+	float: right;
+	height: 100%;
+}
+
+.menu a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 22px;
+	display: block;
+	float: left;
+	padding: 20px;
+}
+
+.menu a:hover {
+	background: #b0aeae;
+	transition: background 0.5s linear, box-shadow 0.5s linear;
+}
+
+/*=======================
+Контент главной страницы
+========================*/
+#about_site h2 {
+	text-align: center;
+	background-color: #7e0000;
+	color: #ffffff;
+	padding: 25px;
+	font-size: 35px;
+	font-family: Helvetica,Arial,Verdana,sans-serif;
+    line-height: 1.1;
+    background-size: calc(100% - 20px);
+    margin-top: 10px;
+}
+
+#about_site p {
+	text-align: center;
+	font-size: 30px;
+	display: block;
+}
+
+.video {
+	text-align: center;
+}
+
+.video video {
+	text-align: center;
+    display: block;
+	width: 100%;
+}
+
+/* Описание сайта и услуг */
+#description {
+	/*width: 70%;*/
+	text-align: center;
+	margin: auto;
+	padding-left: 220px;
+    padding-right: 220px;
+    width: auto;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+   	flex-wrap: wrap;
+}
+
+#description h2 {
+	font-size: 24px;
+}
+
+#description p {
+	font-size: 20px;
+}
+
+.des_block{
+	min-height: 520px;
+}
+
+.photo_left img {
+	max-width: 400px;
+	min-height: 1px;
+    max-height: 460px;
+	padding: 25px 15px;
+	float: left;
+}
+
+.photo_right img {
+	max-width: 400px;
+    height: 460px;
+	padding: 25px 15px;
+	float: right;
+}
+
+.text_left {
+	width: 45%;
+    float: left;
+    margin-top: 100px;
+}
+.text_left p {
+	margin: 30px;
+}
+
+.text_right {
+	width: 45%;
+    float: right;
+    margin-top: 100px;
+}
+
+.text_right p {
+	margin: 30px;
+}
+
+/*===========
+Футер
+============*/
+#footer {
+	width: 100%;
+	height: 50px;
+	background-color: #f0f0f0;
+	margin-top: 15px;
+}
+
+#copy {
+	padding: 15px;
+	position: absolute;
+	/*left: 350px;*/
+}
+
+#footer .menu {
+	/*float: right;*/
+	height: 100%;
+	font-size: 20px;
+}
+
+#footer .menu a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px;
+}
+
+#footer .logo a b {
+	color: #000000;
+	position: relative;
+	height: 100%;
+	float: left;
+	font-size: 18px;
+	font-weight: 600;
+	display: block;
+	padding: 15px;
+}
+/*
+
+/* Иконки соц.сетей */
+#icon {
+	float: right;
+	/*padding: 0px 100px 0px 0px;*/
+}
+
+#icon span a img {
+	width: 30px;
+    height: 30px;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+/*===================
+Страница о шефе ABOUT
+=====================*/
+
+#about_main {
+    margin: 37em 3.5em 0 3.5em;
+}
+
+.chef_photo img {
+    width: calc(100% - 80px);
+    text-align: center;
+    display: block;
+    padding: 0 40px 20px 40px;
+    max-height: 550px;
+}
+
+#about_main img {
+    width: calc(100% - 20px);
+    text-align: center;
+    display: block;
+    padding: 0 10px 20px 10px;
+    max-height: 550px;
+}
+
+.about_chef h2 {
+	text-align: center;
+	background-color: #7e0000;
+	color: #ffffff;
+	padding: 15px;
+	line-height: 1.1;
+	font-size: 35px;
+	font-weight: 300;
+	font-family: Helvetica,Arial,Verdana,sans-serif;
+}
+
+.about_chef p {
+	text-align: center;
+	font-size: 22px;
+	display: block;
+	margin: 40px 0;
+}
+
+/*=========
+Фото блюд
+=========*/
+
+#dishes {
+	padding-left: 40px;
+    padding-right: 40px;
+    width: auto;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+   	flex-wrap: wrap;
+}
+
+.dish_photo {
+	width: 25%;
+    min-height: 1px;
+    flex: 0 0 25%;
+    max-width: 25%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*============
+Контакты шефа
+==============*/
+
+#info {
+	padding-left: 5px;
+    padding-right: 5px;
+}
+
+#info h2 {
+	text-align: center;
+	background-color: #7e0000;
+	color: #ffffff;
+	padding: 15px;
+	line-height: 1.1;
+	font-size: 35px;
+	font-weight: 300;
+	font-family: Helvetica,Arial,Verdana,sans-serif;
+}
+
+#info ul {
+	list-style: none;
+	padding: 0;
+}
+
+#info ul li {
+	list-style: none;
+	max-width: calc(50% - 40px);
+    vertical-align: top;
+    padding: 0 20px;
+    display: block;
+    margin: 0 auto 2em;
+    padding: 0;
+    text-align: center;
+    max-width: 300px;
+}
+
+#info ul li h6 {
+	color: #7e0000;
+	font-size: 24px;
+	margin: 5px;
+}
+
+#info ul li p {
+	font-size: 20px;
+	margin: 5px;
+}
+
+/*========================
+        FEEDBACK
+==========================*/
+.article-search {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #7e0000;
+    height: 58px;
+}
+
+.article-search h2 {
+    display: inline-block;
+    color: #ffffff;
+    padding: 15px;
+    line-height: 1;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    margin: 0;
+}
+/* Стили для формы поиска отзывов*/
+.article-search form {
+	display: inline-block;
+	padding: 30px;
+	padding: 14px 15px;
+}
+
+.form_button{
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+	cursor: pointer;
+	font-size: 14px;
+    font-family: Helvetica;
+}
+.article-search form input{
+    width: 210px;
+    height: 27px;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+}
+/* end Стили для формы поиска отзывов*/
+
+#feedback_blocks {
+	width: calc(100% - 80px);
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+   	flex-wrap: wrap;
+   	overflow-y: auto;
+   	max-height: 310px;
+   /*	display: block;
+   	float: left;*/
+}
+
+.review {
+    min-height: 1px;
+    flex: 0 0 29%;
+    max-width: 29%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 2px solid #f0f0f0;
+    margin: 10px;
+	padding: 15px;
+	/*text-align: center;*/
+	height: 260px;
+}
+
+.not-found {
+	background-color: #7e0000;
+    width: 100%;
+	margin-top: 10px;
+	text-align: center;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+.img {
+	position: absolute;
+}
+.review img {
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 64px;
+    width: 64px;
+}
+
+.name {
+	font-size: 22px;
+	font-weight: 700;
+	font-family: Helvetica,Arial,Verdana,sans-serif;
+	padding: 15px 0 15px 85px;
+	height: 45px;
+	/*text-align: left;*/
+}
+
+.date {
+	font-size: 16px;
+	color: grey;
+	font-family: Helvetica,Arial,Verdana,sans-serif;
+	/*padding: 5px 0;*/
+	/*padding: 5px 0 5px 65px;*/
+}
+.text {
+	overflow-y: auto;
+	max-height: 175px;
+}
+.text p {
+	font-size: 20px;
+	margin: 10px 0;
+	padding-right: 5px;
+}
+
+#feedback_blocks::-webkit-scrollbar-track,
+.text::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgb(240, 240, 240);
+    
+	border-radius: 10px;
+	background-color: #CCCCCC;
+}
+
+#feedback_blocks::-webkit-scrollbar,
+.text::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+#feedback_blocks::-webkit-scrollbar-thumb,
+.text::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #d9d7d7;
+	background-image: -webkit-linear-gradient(90deg,
+		  transparent,
+		  rgba(0, 0, 0, 0.4) 50%,
+		  transparent,
+		  transparent)
+}
+
+#review_form {
+    min-height: 70px;
+    flex: 0 0 33%;
+    max-width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 20px;
+	text-align: center;
+}
+
+#review_form textarea {
+	width: 100%;
+	min-height: 70px;
+	resize: none;
+    border-radius: 6px;
+}
+
+/*==============
+Модальное окно
+==============*/
+
+#review-modal {
+	width: 260px;
+    height: 85px;
+    background: #ffffff;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #f0f0f0;
+    position: absolute;
+    left: calc(50% - 130px);
+    top: 3150px;
+    padding: 20px;
+    text-align: center;
+    display: none;
+}
+
+#alert {
+    font-size: 24px;
+    margin: 15px 0;
+    text-align: center;
+    color: #070707;
+}
+
+.enter-btn {
+    width: 20%;
+    height: 35px;
+    border: none;
+    background: #7e0000;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.enter-btn:active {
+	background: #944d59;
+}
+
+.close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color: #000000;
+}
+
+.close a {
+	text-decoration: none;
+	color: #000000;
+}
+
+/*=============
+Кнопка выбора фото
+=============*/
+
+.input_file {
+    position: relative;
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+
+.input_file input[type=file] {
+    opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    height: 34px;
+    width: 310px;
+}
+
+.fake_file {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.fake_file input[type=button] {
+    border-radius: 7px;
+    /*behavior: url(PIE.htc);*/
+    height: 30px;
+    background-color: #7e0000;
+    border: none;
+    color: #fff;
+    /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; */
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.fake_file_input{
+    height: 28px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    behavior: url(PIE.htc);
+    position: relative;
+    top: 2px;
+    font-size: 20px;
+    width: 210px;
+}
+
+.input_file a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: bottom;
+	/*display: block;*/
+	
+	/*margin: 10px;*/
+	/*padding: 20px;*/
+}

@@ -1,0 +1,236 @@
+#masterclas{
+    margin: 5px 3.5em;
+}
+
+#row {
+	padding-left: 40px;
+    padding-right: 40px;
+    width: auto;
+    max-width: 1440px;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+    display: flex;
+   	flex-wrap: wrap;
+   	text-align: center;
+}
+
+#mcpage {
+    min-height: 1px;
+    max-width: 31%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: calc(100% - 20px);
+    text-align: center;
+    display: block;
+    padding: 0 10px 11px 10px;
+    max-height: 550px;
+}
+
+#mcpage img{
+	max-height: 380px;
+    width: 100%;
+}
+
+#mcinfo {
+	color: #000000;
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+	float: left;
+	padding: 5px;
+	height: 300px;
+	width: 300px;
+	text-align: justify;
+}
+
+
+#mcname {
+	position:relative;
+	display: block;
+	height: 30px;
+	width: 100%;
+	font-size: 22px;
+	background-color: #7e0000;
+}
+
+#imageblock {
+	max-height: 385px;
+	max-width: 310px;
+}
+
+#mcprice{
+	position:relative;
+	display: block;
+	height: 40px;
+	width: 100%;
+	font-size: 22px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#mcprice a, #mcname a{
+		text-decoration: none;
+		color: white;
+}
+
+/*===============================
+Страница отдельного мастеркласса
+=================================*/
+#one_masterclas{
+    margin: 5px 4em;
+    display: -webkit-inline-box;
+    width: 90%;
+}
+
+.mcimage {
+    max-width: 45%;
+    padding-left: 25px;
+}
+
+.mcimage img{
+    max-width: 100%;
+    max-height: 650px;
+}
+
+#mcname-big{
+	display: block;
+    font-size: 50px; 
+    width: calc(100% - 20% - 5em);
+    text-align: center;
+}
+
+.mctitle {
+	font-size: 40px;
+	padding: 20px;	
+}
+
+.mcdate {
+	font-size: 18px;
+	color: grey;
+	padding: 20px;	
+}
+
+#mcprice-big{
+	display: block;
+	font-size: 40px;
+	height: 50px;
+	padding: 20px;	
+}
+
+#mcdescription {
+	font-size: 20px;
+	padding: 10px 60px;
+}
+
+#btn_order {
+	background-color: #7e0000;
+	color: #ffffff;
+	font-size: 35px;
+	font-family: Helvetica,Arial,Verdana,sans-serif;
+    width: 40%;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 5px;
+}
+
+#btn_order a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*=======================
+================*/
+
+#logo {
+	color: #000000;
+	position: relative;
+	height: 100%;
+	float: left;
+	font-size: 22px;
+	font-weight: 600;
+	display: block;
+	padding: 10px;
+}
+
+.my_orders {
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+.my_orders h2 {
+	margin: 0 0 20px 0;
+}
+
+.my_orders h2 a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	background-color: #7e0000;
+	color: #ffffff;
+	padding: 15px;
+	line-height: 1.1;
+	font-size: 35px;
+	font-weight: 300;
+	font-family: Helvetica,Arial,Verdana,sans-serif;
+	text-decoration: none;
+	display: block;
+}
+
+#search button img {
+    width: 18px;
+	height: 18px;
+}
+
+/*==============================
+Стили на добавление мастерклассов
+================================*/
+
+.mc_form {
+	width: 33%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+}
+
+.input {
+	width: 100%;
+}
+
+.wrap-input span {
+	text-align: center;
+	display: block;
+}
+
+.label-input {
+	margin: 5px 0;
+}
+
+.label-input textarea {
+	min-height: 100px;
+}
+
+.label-input button {
+	min-width: 33%;
+    height: 30px;
+    border: none;
+    background: #7e0000;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.about_chef a {
+	text-decoration: none;
+	color: white;
+}
+
